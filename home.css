@@ -2,6 +2,54 @@ body{
     display: block;
 }
 
-nav{
-    display: block;
+/* CSS for navbar */
+.nav{
+    display: inline-block;
+    /* font-size: 1em;
+    height: 7em; */
+    width: auto;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#logo{
+    height: 5em;
+    width: 5em;
+    float: left;
+    /* margin-left: 5em; */
+    margin-left: 6em;
+}
+
+.container{
+    display: inline-block;
+    text-align: center;
+    height: 5em;
+    width: 60em;
+    padding-top: 1.5em;
+    padding-left: 2em;
+}
+
+a{
+    margin: 2em 2em;
+    text-align: center;
+}
+
+/* CSS for image */
+
+.image-Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    padding-right: 2.5em;
+}
+
+#mainImage{
+    height: 30em;
+    width: 50em;
+}
+
+/* CSS for buttons */
+
+#next-button{
+    padding: 0em 1em 0em 1em;
 }
