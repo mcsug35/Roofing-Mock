@@ -1,5 +1,6 @@
 body{
     display: block;
+    background-color: aquamarine;
 }
 
 /* CSS for navbar */
@@ -7,9 +8,11 @@ body{
     display: inline-block;
     /* font-size: 1em;
     height: 7em; */
-    width: auto;
+    width:fit-content;
     text-align: center;
     padding-top: 2em;
+    margin-left: 5em;
+    background-color: rgb(127, 194, 216);
 }
 
 #logo{
@@ -32,6 +35,7 @@ body{
 a{
     margin: 2em 2em;
     text-align: center;
+    text-decoration: none;
 }
 
 /* CSS for image */
