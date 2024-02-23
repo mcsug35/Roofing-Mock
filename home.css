@@ -6,9 +6,7 @@ body{
 /* CSS for navbar */
 .nav{
     display: inline-block;
-    /* font-size: 1em;
-    height: 7em; */
-    width:fit-content;
+    width: fit-content;
     text-align: center;
     padding-top: 2em;
     margin-left: 5em;
@@ -29,7 +27,7 @@ body{
     height: 5em;
     width: 60em;
     padding-top: 1.5em;
-    padding-left: 2em;
+    padding-right: 4em;
 }
 
 a{
@@ -44,7 +42,7 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 3em;
-    padding-right: 2.5em;
+    padding-right: 2.2em;
 }
 
 #mainImage{
@@ -55,5 +53,47 @@ a{
 /* CSS for buttons */
 
 #next-button{
-    padding: 0em 1em 0em 1em;
+    padding-right: 1.5em;
+    padding-left: 1.3em;
+}
+
+/* CSS for info */
+
+.info-section{
+    margin-top: 4rem;
+    display: flex;
+    width: 100%;
+    margin-left: 3em;
+}
+
+/* TWO DIFFERENT COLUMDNS */
+
+#left-side{
+    display: block;
+    width: 45%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#rooferWorkPic{
+    margin-left: 2em;
+    height: 20rem;
+    width: 35rem;
+}
+
+#right-side{
+    display: block;
+    width: 45%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#otherRoofer{
+    margin-left: 2em;
+    margin-top: 2em;
+    height: 20rem;
+    width: 35rem;
+    
 }
