@@ -97,3 +97,14 @@ a{
     width: 35rem;
     
 }
+
+/* CONTACT BANNER CSS */
+.contact-banner{
+    margin: auto;
+    margin-top: 5rem;
+    padding: 2em 1.5em 2em 1.5em;
+    width: 50rem;
+    text-align: center;
+    justify-content: center;
+    background-color:  rgb(127, 194, 216);
+}
